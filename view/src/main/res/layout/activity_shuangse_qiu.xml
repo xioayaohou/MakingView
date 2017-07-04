@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shuangse_qiu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.view.shuangseqiu.ShuangseQiuActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"
+            android:textColor="#f00"
+            android:text="红球:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/red_result"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"
+            android:textColor="#f00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/g1"
+        android:numColumns="6"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"
+            android:textColor="#00f"
+            android:text="蓝球:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/blue_result"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"
+            android:textColor="#00f"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/g2"
+        android:numColumns="6"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+    <TextView
+        android:id="@+id/card_fapai"
+        android:background="@drawable/textview_press"
+        android:clickable="true"
+        android:text="发牌"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+</LinearLayout>

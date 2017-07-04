@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/m2_LinearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:background="@drawable/textview_press"
+            android:onClick="allchaozuo"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/m2_all"
+            android:text="全选"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@drawable/textview_press"
+            android:onClick="allchaozuo"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/m2_add"
+            android:text="增加"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@drawable/textview_press"
+            android:onClick="allchaozuo"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/m2_shanchu"
+            android:text="删除"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@drawable/textview_press"
+            android:onClick="allchaozuo"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/m2_delete"
+            android:text="撤销"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#22000000"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

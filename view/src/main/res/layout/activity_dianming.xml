@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dianming"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.view.dainming.DianmingActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <CheckBox
+            android:id="@+id/b1"
+            android:layout_weight="1"
+            android:text="彭海平"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b2"
+            android:layout_weight="1"
+            android:text="彭海江"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b3"
+            android:layout_weight="1"
+            android:text="彭双月"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b4"
+            android:layout_weight="1"
+            android:text="彭双喜"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <CheckBox
+            android:id="@+id/b5"
+            android:layout_weight="1"
+            android:text="彭小容"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b6"
+            android:layout_weight="1"
+            android:text="彭波进"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b7"
+            android:layout_weight="1"
+            android:text="吴金利"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b8"
+            android:layout_weight="1"
+            android:text="吴章章"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <CheckBox
+            android:id="@+id/b9"
+            android:layout_weight="1"
+            android:text="彭远航"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b10"
+            android:layout_weight="1"
+            android:text="彭益飞"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b11"
+            android:layout_weight="1"
+            android:text="何晓云"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b12"
+            android:layout_weight="1"
+            android:text="彭益党"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <CheckBox
+            android:id="@+id/b13"
+            android:layout_weight="1"
+            android:text="李小果"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b14"
+            android:layout_weight="1"
+            android:text="彭益根"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b15"
+            android:layout_weight="1"
+            android:text="彭三凉"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b16"
+            android:layout_weight="1"
+            android:text="彭益忠"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <CheckBox
+            android:id="@+id/b17"
+            android:layout_weight="1"
+            android:text="彭四凉"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b18"
+            android:layout_weight="1"
+            android:text="彭益欢"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b19"
+            android:layout_weight="1"
+            android:text="彭小凉"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/b20"
+            android:layout_weight="1"
+            android:text="小姑爹"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/m4_LinearLayout"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_marginRight="5dp"
+                android:id="@+id/m4_start"
+                android:onClick="selected"
+                android:background="@drawable/textview_press"
+                android:gravity="center"
+                android:clickable="true"
+                android:text="开始点名"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/m4_end"
+                android:onClick="selected"
+                android:background="@drawable/textview_press"
+                android:gravity="center"
+                android:clickable="true"
+                android:text="结束点名"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lunpan2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.view.lunpan_2.Lunpan2Activity">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@mipmap/yun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.view.lunpan_2.LuckPanLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/luckpan_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.example.view.lunpan_2.RotatePan
+        android:layout_centerInParent="true"
+        android:id="@+id/rotatePan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/node"
+        android:clickable="true"
+        android:onClick="rotation"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

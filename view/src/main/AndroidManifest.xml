@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.view">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/f040"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".checkDelete.CheckBoxActivity" />
+        <activity android:name=".d3d3v.M_3DActivity" />
+        <activity android:name=".dainming.DianmingActivity" />
+        <activity android:name=".hualang.HuaLangActivity" />
+        <activity android:name=".lunpan_1.Lunpan1Activity" />
+        <activity android:name=".lunpan_2.Lunpan2Activity" />
+        <activity android:name=".posui.PoSuiActivity" />
+        <activity android:name=".progressView.ProgressActivity" />
+        <activity android:name=".zhuhe.Main2Activity" />
+        <activity android:name=".yanhua.YuanHuaActivity" />
+        <activity android:name=".tongxunlu.CommunicateActivity" />
+        <activity android:name=".slide.SlideDeleteView" />
+        <activity android:name=".zhinanzheng.OrderActivity" />
+        <activity android:name=".jishuanji.CalculatorActivity" />
+        <activity android:name=".shuangseqiu.ShuangseQiuActivity"></activity>
+    </application>
+
+</manifest>

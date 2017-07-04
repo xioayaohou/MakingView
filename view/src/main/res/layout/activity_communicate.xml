@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_communicate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.view.tongxunlu.CommunicateActivity">
+
+    <com.example.view.tongxunlu.PingyingListview
+        android:id="@+id/zhuye_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.example.view.tongxunlu.SideBar
+        android:id="@+id/side_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+
+</RelativeLayout>
